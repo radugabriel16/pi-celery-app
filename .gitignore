@@ -1,0 +1,58 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+*.tmp
+*.swp
+
+# Virtual environments
+.env
+.venv
+venv/
+env/
+ENV/
+
+# =========================
+# Flask
+# =========================
+instance/
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Celery
+# =========================
+celerybeat-schedule
+celerybeat.pid
+
+# =========================
+# Redis (nothing local usually, but ignore dumps)
+dump.rdb
+
+# =========================
+# Docker
+# =========================
+*.log
+docker-compose.override.yml
+.dockerignore
+
+# =========================
+# VSCode / IDE
+# =========================
+.vscode/
+.idea/
+*.code-workspace
+
+# =========================
+# Misc
+# =========================
+.DS_Store
+*.bak
