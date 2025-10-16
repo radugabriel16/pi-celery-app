@@ -53,5 +53,6 @@ Homepage → [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
 To stop and remove all running containers:
 ```bash
-docker-compose down
+docker compose down
+
 ```
